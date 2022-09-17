@@ -18,11 +18,11 @@ In this folder you can place your Intersect image files.
 Images of the following types will be accepted: `.png .gif .jpg .bmp .tiff`
 
 	Notes:
-> *- If there are no images in the folder, the program will still work, but nothing will be displayed.*
+  > *- If there are no images in the folder, the program will still work, but nothing will be displayed.*
 
-> *- Images will be displayed very quickly by default, so a large number of images is needed to get the desired result.*
+  > *- Images will be displayed very quickly by default, so a large number of images is needed to get the desired result.*
 
-> *- Images will be read in milliseconds, you should put the images in low resolution.*
+  > *- Images will be read in milliseconds, you should put the images in low resolution.*
 
 - **conf.json:**
 Here you can configure the behavior of your program and how it will work.
@@ -34,23 +34,23 @@ Here you can configure the behavior of your program and how it will work.
 	**Skip:** Possibility to skip all questions by typing the answer of the last question in the first.
 	**Debug:** If the program throws an exception, it will be copied to the clipboard.
 
-```json
-{
-	"Intersect Image Delay": 50, 
-	"Intersect Message": "Activation Complete.", 
-	"Welcome Message": "Hello Son.", 
-	"Clipboard": "You're Special, Son.", 
-	"Skip": true, 
-	"Debug": true
-}
-```
+  ```json
+  {
+      "Intersect Image Delay": 50, 
+      "Intersect Message": "Activation Complete.", 
+      "Welcome Message": "Hello Son.", 
+      "Clipboard": "You're Special, Son.", 
+      "Skip": true, 
+      "Debug": true
+  }
+  ```
 
 - **data.json:** 
 	It will allow you to create your own quiz in the program with your questions and your answers.
 
-```json
-[
-	{"Question": "Knock Knock.", "Answer": "I'm Here."}, 
-	{"Question": "1 or 11 ?", "Answer": "Aces, Charles."}
-]
-```
+  ```json
+  [
+      {"Question": "Knock Knock.", "Answer": "I'm Here."}, 
+      {"Question": "1 or 11 ?", "Answer": "Aces, Charles."}
+  ]
+  ```
