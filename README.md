@@ -27,11 +27,11 @@ Images of the following types will be accepted: `.png .gif .jpg .bmp .tiff`
 - **conf.json:**
 Here you can configure the behavior of your program and how it will work.
 
-	**Intersect Image Delay:** It is the time in ms that each image will be displayed.
-	**Intersect Message:** Message that will be shown after loads the Intersect.
-	**Welcome Message:** Message that will be shown before loads the Intersect.
-	**Clipboard:** Text that will be copied to the clipboard after loads the Intersect.
-	**Skip:** Possibility to skip all questions by typing the answer of the last question in the first.
+	**Intersect Image Delay:** It is the time in ms that each image will be displayed.\
+	**Intersect Message:** Message that will be shown after loads the Intersect.\
+	**Welcome Message:** Message that will be shown before loads the Intersect.\
+	**Clipboard:** Text that will be copied to the clipboard after loads the Intersect.\
+	**Skip:** Possibility to skip all questions by typing the answer of the last question in the first.\
 	**Debug:** If the program throws an exception, it will be copied to the clipboard.
 
   ```json
