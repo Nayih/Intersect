@@ -13,7 +13,7 @@ Preview:
 When running the program it will create a folder called System Files with the necessary files for the program to work correctly in the same directory where the executable is.
 
 In this directory are found the following files:
-- **Intersect (Folder):**
+- **Intersect (Folder):**\
 In this folder you can place your Intersect image files.
 Images of the following types will be accepted: `.png .gif .jpg .bmp .tiff`
 
@@ -24,7 +24,7 @@ Images of the following types will be accepted: `.png .gif .jpg .bmp .tiff`
 
   > *- Images will be read in milliseconds, you should put the images in low resolution.*
 
-- **conf.json:**
+- **conf.json:**\
 Here you can configure the behavior of your program and how it will work.
 
 	**Intersect Image Delay:** It is the time in ms that each image will be displayed.\
@@ -45,7 +45,7 @@ Here you can configure the behavior of your program and how it will work.
   }
   ```
 
-- **data.json:** 
+- **data.json:**\
 	It will allow you to create your own quiz in the program with your questions and your answers.
 
   ```json
