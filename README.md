@@ -1,6 +1,6 @@
 # Intersect
 
-- Based on the [Chuck (TV Series)](https://en.wikipedia.org/wiki/Chuck_(TV_series)).
+- Based on the [Chuck (TV Series)](https://en.wikipedia.org/wiki/Chuck_(TV_series)).\
 The program is the representation of the Orion computer password terminal.
 
 
